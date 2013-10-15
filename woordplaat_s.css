@@ -1,0 +1,68 @@
+/* Stylesheet with definitions for small (300x225 px max) picture size */
+
+/* We actually mean #answerset.pictext, but IE doesn't understand that */
+.pictext {
+	position: relative;
+	width: 610px;
+	height: 570px;
+}
+
+.piconly {
+	position: relative;
+	width: 610px;
+	height: 495px;
+}
+
+.textonly {
+	position: relative;
+	height: 130px;
+	width: 610px;
+}
+
+#question  {
+	padding-left: 155px;
+	padding-right: 155px;
+	padding-bottom: 20px;
+	width: 300px;
+	height: auto;
+}
+
+.item, .filler {
+	width: 300px;
+}
+
+.textonly .item, .textonly .filler {
+	height: 60px;
+}
+
+.pictext .item, .pictext .filler {
+	height: 280px;
+}
+
+.piconly .item, .piconly .filler {
+	height: 243px;
+}
+
+.image  .pic {
+	position: absolute;
+	left: 0px;
+	width: 300px;
+	text-align: center;
+}
+
+.wordtext {
+	position: absolute;
+	bottom: 0px;
+	width: 200px;
+	margin-left: 50px;
+	margin-right: 50px;
+	font-size: 35pt;
+	text-align: center;
+}
+
+#control {
+	position: absolute;
+	left: 650px;
+	top: 10px;
+}		  
+

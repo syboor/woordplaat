@@ -1,0 +1,221 @@
+body { 
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	background: #ffffcc;
+}
+
+.items {
+	display: none;
+}
+
+/* We actually mean #answerset.pictext, but IE doesn't understand that */
+.pictext {
+	position: relative;
+	width: 810px;
+	height: 720px;
+}
+
+.piconly {
+	position: relative;
+	width: 810px;
+	height: 645px;
+}
+
+.textonly {
+	position: relative;
+	height: 130px;
+	width: 810px;
+}
+
+#question  {
+	padding-left: 205px;
+	padding-right: 205px;
+	padding-bottom: 20px;
+	width: 400px;
+	height: auto;
+}
+
+.item, .filler {
+	position: relative;
+	cursor: default;
+	background: #ffffff;
+	border: solid black 1px;
+	width: 400px;
+}
+
+#question .item {
+	background: #ffffcc;
+	border: 0px;
+}
+
+.textonly .item, .textonly .filler {
+	height: 60px;
+}
+
+.pictext .item , .pictext .filler {
+	height: 355px;
+}
+
+.pictext .filler {
+	color: #666666;
+}
+
+.piconly .item , .piconly .filler{
+	height: 318px;
+}
+
+[onClick] {
+	cursor: pointer;
+	cursor: hand;
+}
+
+#question [onclick] {
+	cursor: default;
+}
+
+.image  .pic {
+	position: absolute;
+	left: 0px;
+	width: 400px;
+	text-align: center;
+}
+
+.pictext .image .pic {
+	bottom: 55px;
+}
+
+.piconly .image .pic {
+	bottom: 18px;
+}
+
+.textonly .image {
+	display: none;
+}
+
+.image .license {
+	position: absolute;
+	left: 0px;
+}
+
+.pictext .image .license {
+	bottom: 36px;
+}
+
+.piconly .image .license {
+	bottom: 0px;
+}
+
+.image .source {
+	position: absolute;
+	right: 0px;
+}
+
+.pictext .image .source {
+	bottom: 36px;
+}
+
+.piconly .image .source {
+	bottom: 0px;
+}
+
+.wordtext {
+	position: absolute;
+	bottom: 0px;
+	width: 300px;
+	margin-left: 50px;
+	margin-right: 50px;
+	font-size: 35pt;
+	text-align: center;
+}
+
+.piconly .wordtext {
+	display: none;
+}
+
+/* the 'answerset' thingy is in here to make the selector specific enough */
+#answerset .set_pos0 {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#answerset .set_pos1 {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#answerset .set_pos2 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+#answerset .set_pos3 {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+#control {
+	position: absolute;
+	left: 850px;
+	top: 10px;
+}		  
+
+#copyright {
+	font-size: 9pt;
+}
+
+.license img {
+	border: none;
+	padding: 1px;
+	vertical-align: text-bottom;
+}
+
+.license {
+	font-size: 9pt;
+}
+
+.license a {
+	text-decoration: none;
+}
+
+.source {
+	font-size: 9pt;
+}
+
+.source a {
+	text-decoration: none;
+}
+
+#setnav {
+	font-size: 20pt;
+}
+
+table.copyright {
+	border: solid black 1px;
+}
+
+.lesn1 {
+	font-size: 20pt;
+	color: #008800;
+}
+
+.lesn2 {
+	font-size: 20pt;	
+	color: #FF8800;
+}
+
+.lesn3 {
+	font-size: 20pt;
+	color: #FF0000;
+}
+
+.lesn0 {
+	font-size: 20pt;
+	color: #000000;
+}
+
+.lessontable td {
+	border-bottom: 1px solid black;
+}

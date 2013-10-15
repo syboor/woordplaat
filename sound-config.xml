@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- SoundManager Flash configuration -->
+<!-- Sound IDs are referenced from JS -->
+
+<items baseHref="audio/" defaultVol="100">
+
+ <sound id="goed" href="goed.mp3" />
+ <sound id="fout" href="fout.mp3" />
+ 
+</items>

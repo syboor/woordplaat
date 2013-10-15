@@ -1,0 +1,42 @@
+$levels = [
+	{
+		file => "vll_struct3.txt",
+		mode => "choosepic",
+		nextf => "nextrandom()",
+	},
+	{
+		file => "vll_struct3.txt",
+		mode => "chooseword",
+		nextf => "nextrandom()",
+	},
+	{
+		file => "vll_decod3_1.txt",
+		mode => "choosepic",
+		nextf => "nextrandom()",
+	},
+	{
+		file => "vll_decod3_1.txt",
+		mode => "chooseword",
+		nextf => "nextrandom()",
+	},
+	{
+		file => "vll_decod3_beginletter.txt",
+		mode => "choosepic",
+		nextf => "nextrandom()",
+	},
+	{
+		file => "vll_decod3_beginletter.txt",
+		mode => "chooseword",
+		nextf => "nextrandom()",
+	},
+	{
+		file => "vll_decod3_2.txt",
+		mode => "choosepic",
+		nextf => "nextrandom()",
+	},
+	{
+		file => "vll_decod3_2.txt",
+		mode => "chooseword",
+		nextf => "nextrandom()",
+	},
+];

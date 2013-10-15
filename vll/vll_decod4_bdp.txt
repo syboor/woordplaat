@@ -1,0 +1,21 @@
+Decodeerbare woorden t/m kern 4, beginnend met b/d/p, veel overeenkomst
+
+boos
+doos
+doek
+boek
+
+bak
+pak
+been
+peen
+
+peer
+beer
+bot
+pot
+
+dak
+bak
+poot
+boot
